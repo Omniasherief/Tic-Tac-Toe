@@ -6,6 +6,7 @@ Multiplayer mode: Two players play against each other.
 Single-player mode: User plays against an implemented smart algorithm that tries to win the game. This mode has two levels:
 
 Normal level: if the program starts first.
+
 Easy level: if the user starts first.
 ## Inputs
 The game should only accept the following inputs:
