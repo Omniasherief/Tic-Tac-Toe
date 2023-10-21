@@ -27,12 +27,11 @@ In the case of Tic-Tac-Toe, the minimax algorithm works as follows:
 1. The algorithm considers all possible moves that the AI player can make.
 2. For each possible move, the algorithm simulates the game and determines the outcome of the game assuming both players play optimally.
 3. The algorithm assigns a score to each possible move based on the outcome of the game.
-4. The algorithm selects the move with the highest score as the best move for the AI player.
 
 The score assigned to each move is determined as follows:
 
-- If the AI player wins, the score is +10.
-- If the human player wins, the score is -10.
+- If the AI player wins, the score is -10.
+- If the human player wins, the score is +10.
 - If the game is a tie, the score is 0.
 
 The algorithm assumes that both players play optimally, meaning that they will always make the best move available to them.
