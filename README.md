@@ -8,7 +8,9 @@ Easy level: if the user starts first.
 ## Inputs
 The game should only accept the following inputs:
 1- In the beginning the Exist option is option number 3
+
 2- Input to select between the two modes.
+
 3- Input with the position of where to place your sign on the tic tac toe board using the NUMPAD.
 ## Algorithm
 # Minimax Algorithm
