@@ -7,7 +7,8 @@ Normal level: if the program starts first.
 Easy level: if the user starts first.
 ## Inputs
 The game should only accept the following inputs:
-1- In the beginning the Exist option is option number 3
+
+1- In the beginning the Exist option is option number 3.
 
 2- Input to select between the two modes.
 
