@@ -2,7 +2,9 @@
 
 ## Features 
 Multiplayer mode: Two players play against each other.
+
 Single-player mode: User plays against an implemented smart algorithm that tries to win the game. This mode has two levels:
+
 Normal level: if the program starts first.
 Easy level: if the user starts first.
 ## Inputs
@@ -14,7 +16,8 @@ The game should only accept the following inputs:
 
 3- Input with the position of where to place your sign on the tic tac toe board using the NUMPAD.
 ## Algorithm
-# Minimax Algorithm
+
+Single player mode is implemented by using minimax algorithm.
 
 The minimax algorithm is a decision-making algorithm that is commonly used in two-player games. It is a recursive algorithm that considers all possible moves and their outcomes to determine the best move for a player.
 
