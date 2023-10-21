@@ -403,7 +403,7 @@ void multiplayer()
           } 
 		}
         else 
-		{ printf("%s turn (O)\n", player2);
+		{ printf("%s 's turn (O)\n", player2);
             sint32 move; 
           
            printf("Enter your move (1-9): ");
