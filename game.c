@@ -421,6 +421,7 @@ void multiplayer()
            x = (move - 1) / SIDE;
            y = (move - 1) % SIDE;
            if (board[x][y] == ' ') {
+			   
                board[x][y] = 'O';
                print_board(board);
                moveIndex++;
@@ -444,5 +445,6 @@ void multiplayer()
   
    }
 }
+
 
  
