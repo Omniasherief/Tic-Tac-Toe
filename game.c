@@ -203,7 +203,7 @@ void Winner(sint32  whoseturn)
 	if(whoseturn==COMPUTER)
 		printf("COMPUTER HAS WON");
 	if(whoseturn==YOU)
-		printf("YOU HAS WON");
+		printf("YOU HAVE WON");
 	
 	
 }
