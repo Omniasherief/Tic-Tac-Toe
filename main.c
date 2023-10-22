@@ -36,7 +36,7 @@ start:
             }
 
             if (option == 1)
-            { while (getchar() != '\n'); //CLEAR REMAINING INPUT
+            { 
                 goto start;
             }
             else
@@ -103,9 +103,9 @@ start:
         else
         {
             printf("Invalid choice! Try again.\n");
-            printf("Choose game mode:\n");
-            printf("1. Multiplayer\n");
-            printf("2. Single player\n");
+            printf("\t\t\tChoose game mode:\n");
+            printf("\t\t\t1. Multiplayer\n");
+            printf("\t\t\t2. Single player\n");
 	    printf("\t\t\t3. EXIT\n");
 
         }
