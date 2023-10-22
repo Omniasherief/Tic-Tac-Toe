@@ -36,7 +36,7 @@ start:
             }
 
             if (option == 1)
-            {
+            { while (getchar() != '\n'); //CLEAR REMAINING INPUT
                 goto start;
             }
             else
@@ -97,7 +97,7 @@ start:
         else if (choice == 3)
         {  yellow ();
             printf("GOODBYE, COME AGAIN :(\n");
-			reset ();
+	    reset ();
             exit(0);
         }
         else
@@ -106,6 +106,8 @@ start:
             printf("Choose game mode:\n");
             printf("1. Multiplayer\n");
             printf("2. Single player\n");
+	    printf("\t\t\t3. EXIT\n");
+
         }
     }
 	if((scanf("%d", &choice) != 1))
